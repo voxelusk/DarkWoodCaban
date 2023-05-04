@@ -15,9 +15,9 @@ function Experience() {
         // maxPolarAngle={Math.PI - Math.PI / 1.8}
       />
 
-      <directionalLight position={[-4.3, 8.3, 3.0]} intensity={0.2} />
+      <directionalLight position={[-4.3, 8.3, 3.0]} intensity={0} />
 
-      <ambientLight intensity={1} />
+      <ambientLight intensity={0.1} />
 
       <DarkWoodCaban />
     </Canvas>
