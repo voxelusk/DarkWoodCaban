@@ -6,8 +6,6 @@ const DarkWoodCaban = () => {
     true
   );
 
-  console.log(DarkWoodCaban);
-
   return (
     <>
       <mesh position-y={-1} scale={0.5}>
