@@ -4,7 +4,7 @@ import DarkWoodCaban from "./components/DarkWoodCaban";
 
 function Experience() {
   return (
-    <Canvas>
+    <Canvas shadows >
       <OrbitControls
         makeDefault
         // maxDistance={12}
@@ -14,8 +14,6 @@ function Experience() {
         // minPolarAngle={Math.PI / 2.5}
         // maxPolarAngle={Math.PI - Math.PI / 1.8}
       />
-
-      <directionalLight position={[-4.3, 8.3, 3.0]} intensity={0} />
 
       <ambientLight intensity={0.1} />
 
