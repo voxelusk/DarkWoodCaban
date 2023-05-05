@@ -2,9 +2,12 @@ import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import DarkWoodCaban from "./components/DarkWoodCaban";
 
+import { Perf } from "r3f-perf";
+
 function Experience() {
   return (
-    <Canvas shadows >
+    <Canvas shadows>
+      <Perf position="top-left" />
       <OrbitControls
         makeDefault
         // maxDistance={12}
