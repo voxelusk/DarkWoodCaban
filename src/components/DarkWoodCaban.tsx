@@ -2,9 +2,6 @@ import { useGLTF } from "@react-three/drei";
 import { Lights } from "./Lights";
 
 const DarkWoodCaban = () => {
-  // const pointLightRef = useRef<PointLight>(null!);
-  // useHelper(pointLightRef, PointLightHelper, 1, "red");
-
   // const { lightPosition, intensity } = useControls({
   //   lightPosition: { x: 0.25, y: 4.18, z: -5.25 },
   //   intensity: { value: 0.45 },
